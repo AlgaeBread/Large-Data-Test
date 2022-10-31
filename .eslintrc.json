@@ -1,0 +1,22 @@
+{
+  "plugins": [
+    "office-addins"
+  ],
+  "extends": [
+    "plugin:office-addins/react"
+  ],
+  "globals": {
+    "JSX": "readonly",
+    "console": "readonly",
+    "Excel": "readonly",
+    "Office": "readonly",
+    "document": "readonly",
+    "require": "readonly",
+    "module": "readonly",
+    "window": "readonly",
+    "process": "readonly",
+    "navigator": "readonly",
+    "OfficeExtension": "readonly",
+    "Proxy": "readonly"
+  }
+}
